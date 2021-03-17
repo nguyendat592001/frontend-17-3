@@ -1,0 +1,82 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* 1 vị trí 
+2 kích thước (width , height)
+3 nàu sắc 
+4 kiểu dáng ( kiểu chư , hình tròn ,hình vuông ,.... */
+#main {
+
+}
+
+#header {
+
+    height: 46px;
+    background-color: #000;
+
+}
+#nav{
+
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    
+    position: relative;
+
+}
+
+
+#nav > li > a{
+    color: #fff;
+}
+#nav li a {
+
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover 
+{
+    color: #000;
+    background-color: #ccc;
+    
+}
+#nav .subnav {
+     /* display: none;  */
+     position: absolute;
+     background-color: #fff;
+}
+#nav .subnav a {
+    color: #000;
+    
+}
+.subnav > li > a{
+    display: block;
+}
+#slider {
+    min-height: 400px;
+    background-color: #333  ;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
